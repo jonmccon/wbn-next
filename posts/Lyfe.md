@@ -8,12 +8,12 @@ Agency of record for Lyfe Foods, both a restaurant & available in frozen aisles.
 -
 
 
-![alt text](/images/lyfe/lyfe-10.jpeg "TV Guide ui")
+![alt text](/images/lyfe/lyfe-10.jpeg "Animation wires")
 
-![alt text](/images/lyfe/lyfe-20.png "Overlay ui")
+![alt text](/images/lyfe/lyfe-20.png "Wall of content ideation")
 
-![alt text](/images/lyfe/lyfe-30.jpeg "Remote control ui")
+![alt text](/images/lyfe/lyfe-30.jpeg "Multi modal content strategy")
 
-![alt text](/images/lyfe/lyfe-40.png "Remote control ui")
+![alt text](/images/lyfe/lyfe-40.png "Mobile web menu, blog, email")
 
-![alt text](/images/lyfe/lyfe-50.png "Remote control ui")
+![alt text](/images/lyfe/lyfe-50.png "Skinning a web ordering ui")
