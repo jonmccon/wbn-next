@@ -21,4 +21,4 @@ Ongoing project, 2016
 
 ![alt text](/images/plot/plot-40.png "Face studies")
 
-![alt text](/images/plot/plot-50.png "Plotting Rig")
+![alt text](/images/plot/plot-50.jpg "Plotting Rig")
