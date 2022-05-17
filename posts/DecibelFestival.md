@@ -1,6 +1,6 @@
 ---
-title: 'db'
-subtitle: 'Hacking twitter into a game'
+title: 'Decibel Festival Popup Artshow'
+subtitle: 'Opening Ceremonies'
 date: '2020-01-02'
 ---
 
