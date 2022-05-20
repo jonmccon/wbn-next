@@ -10,6 +10,7 @@ I was able to pull together an extra graduating show, planned with a handful of 
 -
 Design and production in collaboration with [Riley Hoonan](https://www.rileyhoonan.com/), [Glenn Newcomer](https://glennnewcomer.com/), photography from [Erik Simkins](http://simkinsphotography.com/). Special thanks to [Daniel Petrzelka](https://www.linkedin.com/in/daniel-petrzelka-765266a/) & [Bebet Caguin](https://www.linkedin.com/in/bebet-caguin-64a6339/) of Tether and the WWU Class of 2010.
 -
+![alt text](/images/afew/afew-00.jpg "Design class logo")
 
 ![alt text](/images/afew/afew-10.png "Class intro mini site")
 
