@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Script from 'next/script'
 import Date from '../components/date'
+import ThreeCanvas from '../components/threeCanvas'
 
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
@@ -23,6 +24,13 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+
+      <ThreeCanvas>
+      <div className={utilStyles.scene}>
+      </div>
+      </ThreeCanvas>
+      
+    
       <section className={utilStyles.headingMd}>
         <p>IAMA DESIGNER / PHOTOGRAPHER / TINKERER / RESEARCHER / PROGRAMMER / SAILOR / PODCASTER / FOUNDER / READER —LET’S BUILD TOGETHER.</p>
         <p>
