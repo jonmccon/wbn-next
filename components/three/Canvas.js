@@ -1,10 +1,10 @@
 import { Canvas } from "@react-three/fiber";
-import utilStyles from "../styles/utils.module.css";
-import Floor from "./threeFloor";
-import Box from "./threeBox";
-import LightBulb from "./threeLightBulb";
-import OrbitControls from "./threeOrbitControls";
-import Draggable from "./threeDraggable";
+import utilStyles from "../../styles/utils.module.css";
+import Floor from "./Floor";
+import Box from "./Box";
+import LightBulb from "./LightBulb";
+import OrbitControls from "./OrbitControls";
+import Draggable from "./Draggable";
 import { Suspense } from "react";
 
 export default function ThreeCanvas() {

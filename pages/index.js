@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Script from 'next/script'
 import Date from '../components/date'
-import ThreeCanvas from '../components/threeCanvas'
+import ThreeCanvas from '../components/three/Canvas'
 
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
