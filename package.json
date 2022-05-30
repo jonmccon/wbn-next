@@ -6,12 +6,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@react-three/drei": "^9.11.3",
     "@react-three/fiber": "^8.0.18",
     "date-fns": "^2.28.0",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "^18.0.0-0",
-    "react-dom": "^18.0.0-0",
+    "react-dom": "^18.1.0-0",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1",
     "three": "^0.140.2"
