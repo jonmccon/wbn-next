@@ -17,7 +17,7 @@ export default function ThreeCanvas() {
         shadows={true}
         className={utilStyles.canvas}
         camera={{
-          position: [-2, 2, 3],
+          position: [-2, 1, 1],
         }}
       >
         
@@ -29,7 +29,6 @@ export default function ThreeCanvas() {
         
           <Suspense>
             <Face position={[0, 0, 0]} rotation={[1.5, -.25, .75]}/>
-            <Box />
           </Suspense>
         
         <OrbitControls/>

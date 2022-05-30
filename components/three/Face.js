@@ -18,7 +18,7 @@ export default function Face({ ...props }) {
         geometry={nodes.FaceShader.geometry} 
         material={materials.Selfie_fullres}
       >         
-        <meshPhysicalMaterial map={faceTexture} color={"white"} />
+        <meshPhysicalMaterial map={faceTexture} />
       </mesh>
     </group>
   )
