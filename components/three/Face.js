@@ -13,7 +13,6 @@ export default function Face({ ...props }) {
   
   return (
     <group ref={group} {...props} dispose={null}>
-      {/* <mesh geometry={nodes.FaceShader.geometry} material={materials.FaceShader} position={[-0.1, -0.06, 0.03]} rotation={[1.5, 0.04, -1.56]} /> */}
       <mesh
         geometry={nodes.FaceShader.geometry} 
         material={materials.Selfie_fullres}
@@ -25,8 +24,8 @@ export default function Face({ ...props }) {
 }
 // console.log(Face)
 
-useGLTF.preload("models/FaceShader.glb")
-useTexture.preload("models/faceShader-texture.jpg")
+useGLTF.preload("/models/faceShader.glb")
+useTexture.preload("/models/faceShader-texture.jpg")
 
 
 
