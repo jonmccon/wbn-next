@@ -26,6 +26,7 @@ export default function Face({ ...props }) {
 // console.log(Face)
 
 useGLTF.preload("models/FaceShader.glb")
+useTexture.preload("models/faceShader-texture.jpg")
 
 
 
