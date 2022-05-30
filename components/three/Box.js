@@ -3,7 +3,7 @@ import { useLoader } from "@react-three/fiber";
 import { TextureLoader } from "three";
 
 function Box(props) {
-    const texture = useLoader(TextureLoader, "/images/afew/afew-00.jpg");
+    const texture = useLoader(TextureLoader, "models/faceShader-texture.jpg");
   return (
     <mesh {...props} recieveShadow={true} castShadow={true}>
       <boxBufferGeometry />

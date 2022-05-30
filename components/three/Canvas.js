@@ -29,6 +29,7 @@ export default function ThreeCanvas() {
         
           <Suspense>
             <Face position={[0, 0, 0]} rotation={[1.5, -.25, .75]}/>
+            <Box />
           </Suspense>
         
         <OrbitControls/>
