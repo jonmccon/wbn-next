@@ -7,8 +7,8 @@ import { useGLTF, useTexture } from "@react-three/drei"
 
 export default function Face({ ...props }) {
   const group = useRef()
-  const { nodes, materials } = useGLTF("models/faceShader.glb")
-  const faceTexture = useTexture("models/faceShader-texture.jpg")
+  const { nodes, materials } = useGLTF("/models/faceShader.glb")
+  const faceTexture = useTexture("/models/faceShader-texture.jpg")
 
   
   return (
