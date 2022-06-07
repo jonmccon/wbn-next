@@ -7,31 +7,38 @@ import Box from "./Box";
 import LightBulb from "./LightBulb";
 import OrbitControls from "./OrbitControls";
 import Draggable from "./Draggable";
-import Face from "./Face";
+import Face from "./FaceOrignaloader";
 
 
-export default function ThreeCanvas() {
+export default function ThreeCanvas() {  
+  
   return (
     <div className={utilStyles.scene}>
       <Canvas
         shadows={true}
         className={utilStyles.canvas}
         camera={{
-          position: [-2, 1, 1],
+          fov: 60, 
+          near: 1, 
+          far: 20, position: [2, 0, 0] 
         }}
       >
-        
-        
-        <LightBulb position={[-2, 2, 2]} />
+
+        <ambientLight position={[10, 0, 0]} />
+      
         
 
         {/* <Floor position={[0, -5, 0]} /> */}
         
           <Suspense>
-            <Face position={[0, 0, 0]} rotation={[1.5, -.25, .75]}/>
+            <Face 
+            position={[0, 0, 0]} 
+            // rotation={[0, 0, 0]}
+            />
+            
           </Suspense>
         
-        <OrbitControls/>
+        {/* <OrbitControls/> */}
       </Canvas>
     </div>
   );

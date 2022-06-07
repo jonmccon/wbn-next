@@ -2,14 +2,15 @@
 title: 'Strengthening our Spatial Citizenship'
 subtitle: 'A minimap for good locales'
 date: '2020-01-02'
+thumb: /images/ms/ms-thumb.png
 ---
 
 Metastream sought to engage with the cohabitants of Seattle through an augmented reflection our environmental timeline. A map to see and understand surrounding realtime data and accessible only by being near a physical locale. 
--
+
 In collaboration with cofounder [Mike Shrieve](https://twitter.com/untelcombat), a study that leveraged (and required us to learn) progressive web apps, Mapbox, Firebase, Google Cloud platform, and Gitlab. In collaboration with the [Open Streetmap](https://www.openstreetmap.org/) community and public data from the [City of Seattle](https://data.seattle.gov/). 
--
+
 [Mobile / Desktop demo](https://d.metastre.am/)
--
+
 All images in browser windows built by Mike Shrieve
 
 

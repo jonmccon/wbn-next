@@ -7,8 +7,12 @@ import { useGLTF, useTexture } from "@react-three/drei"
 
 export default function Face({ ...props }) {
   const group = useRef()
-  const { nodes, materials } = useGLTF("/models/faceShader.glb")
-  // const faceTexture = useTexture("/models/faceShader-texture.jpg")
+  const { nodes, materials } = useGLTF("/models/Face5.glb")
+  const faceTexture = useTexture("/models/texture-baked.png")
+  const faceNormal = useTexture("/models/normal-baked.png")
+  const faceRoughness = useTexture("/models/roughness-baked.png")
+  const faceAO = useTexture("/models/ao-baked.png")
+  
 
   
   return (
@@ -17,16 +21,23 @@ export default function Face({ ...props }) {
         geometry={nodes.FaceShader.geometry} 
         material={materials.Selfie_fullres}
       >         
-        {/* <meshPhysicalMaterial map={faceTexture} /> */}
+      <meshPhysicalMaterial 
+        map={faceTexture}
+        normalMap={faceNormal}
+        roughnessMap={faceRoughness}
+        aoMap={faceAO}
+        
+      />
       </mesh>
     </group>
   )
 }
+
+
+
+useGLTF.preload("/models/Face5.glb")
+
 // console.log(Face)
-
-useGLTF.preload("/models/faceShader.glb")
-// useTexture.preload("/models/faceShader-texture.jpg")
-
 
 
 
@@ -44,4 +55,4 @@ useGLTF.preload("/models/faceShader.glb")
 //   )
 // }
 
-// npx gltfjsx FaceShader.glb
+// npx gltfjsx faceShaderFullres.glb

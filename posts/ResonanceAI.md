@@ -2,6 +2,7 @@
 title: 'Video Analytics Platform'
 subtitle: 'Teaching the Machine to watch TV'
 date: '2020-01-02'
+thumb: /images/res/res-thumb.png
 ---
 
 The summer of 2021 was all about boiling down disparate data points into storytelling elements. As the sole designer for [Resonance AI](https://www.resonanceai.com/) I was able to reorient the brand & product to be an opinionated feedback platform for video & TV production clients. Two fonts were chosen to provide a distinction between hard data and analysis, as well as exploring color pallettes that created understandable distinction of an desired outcome. Taking these visual standards and combining multiple datapoints in novel ways, I created charting systems that individually represented a section of episode performance but that could be read together overall due to the shared design system. 

@@ -25,30 +25,36 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
 
+      {/* Leaving out face map for now 
       <ThreeCanvas>
       <div className={utilStyles.scene}>
       </div>
       </ThreeCanvas>
-      
+       */}
     
       <section className={utilStyles.headingMd}>
         <p>IAMA DESIGNER / PHOTOGRAPHER / TINKERER / RESEARCHER / PROGRAMMER / SAILOR / PODCASTER / FOUNDER / READER —LET’S BUILD TOGETHER.</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>List of md based posts</h2>
+        {/* <h2 className={utilStyles.headingLg}></h2> */}
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, title, subtitle, thumb }) => (
             <li className={utilStyles.listItem} key={id}>
+              <Image 
+              priority
+              src={thumb}
+              className={utilStyles.thumb}
+              height={108}
+              width={108}
+              />
+              <br />
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>
+              
               <br />
               <small className={utilStyles.lightText}>
-                <Date dateString={date} />
+                {subtitle}
               </small>
             </li>
           ))}

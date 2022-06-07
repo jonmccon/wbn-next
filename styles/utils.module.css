@@ -4,6 +4,7 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  text-align: center;
 }
   
 .headingXl {
@@ -12,6 +13,7 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  text-align: center;
 }
 
 .headingLg {
@@ -23,10 +25,16 @@
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
+  /* font-family: 'Newsreader', serif; */
 }
 
 .borderCircle {
   border-radius: 9999px;
+}
+
+.borderCircleDark {
+  border-radius: 9999px;
+  filter: grayscale(100%);
 }
 
 .colorInherit {
@@ -59,4 +67,20 @@
 
 .canvas{
     /* background: aquamarine; */
+}
+
+.container {
+  max-width: 80%;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
 }
